@@ -15,6 +15,14 @@ export class AppComponent  {
   angka2=3;
   pangkat = Math.pow(this.angka1,this.angka2);
 
+if(pangkat%2==0)
+{
+  genap : boolean = true;
+}
+else
+{
+  ganjil: boolean = false;
+}
 }
 
 
